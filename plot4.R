@@ -29,7 +29,7 @@ lines(date_time,  as.numeric(Pwr$Sub_metering_3),
       type="l", 
       col="blue")
 legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), 
-       lty=1, lwd=1.5, 
+       lty=1, lwd=1.5, bty="n",
        col=c("black", "red", "blue"))
 
 plot(date_time,  as.numeric(Pwr$Global_reactive_power), 
